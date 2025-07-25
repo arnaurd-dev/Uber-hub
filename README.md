@@ -26,11 +26,12 @@ The dataset includes the following key variables:
 - Dropped or imputed null entries
 - Converted data types (e.g., datetime format)
 - Removed outliers to improve data quality
+- ![Fare Distribution](./cleaning%20process.png)
 
 ## 📈 Descriptive Analysis
 - Central tendency: Mean, Median, Mode
 - Spread: Standard Deviation, Min, Max, Quartiles
-- Visuals: Histograms, Boxplots to identify distribution and outliers
+- ![Fare Distribution](./describe.png)
 
 ## 🔍 Key Insights
 - **Fare vs Distance**: Positive correlation observed
@@ -42,24 +43,27 @@ The dataset includes the following key variables:
 - Extracted new time-based features: `Hour`, `Day`, `Month`, `Weekday`
 - Categorized times into `Peak` and `Off-Peak`
 - Encoded categorical variables for improved analysis
+- ![Fare Distribution](./features.png)
 
 ## 💾 Final Dataset
 - Output file: `uber_cleaned_features.csv`
 - Contains cleaned and feature-engineered data
 - Used for Power BI import and visualization
+- ![Fare Distribution](./cleaning.png)
 
 ## 📊 Power BI Dashboard
 
 ### Dashboard Overview  
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](./dashboard%20overview.png)
 
 ### Fare Distribution Chart  
-![Fare Distribution](images/fare_distribution_chart.png)
-
+![Fare Distribution](./fareaveragebyhour.png)
+![Fare Distribution](./fareaveragebymonth.png)
+![Fare Distribution](./fareaveragebyweekday.png)
 ### Time-Based Fare Analysis  
-![Time Analysis](images/time_analysis.png)
+![Time Analysis](./farebymonth.png)
+![Fare Distribution](./line%20chart.png)
 
-> _These visuals enable filtering by date, time, and location to explore trends in Uber fares._
 
 ## ✅ Recommendations
 - Adjust driver availability to align with peak hours
